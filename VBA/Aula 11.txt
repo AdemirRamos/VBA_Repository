@@ -4,6 +4,6 @@ Sub Variável()
     MsgBox Nome, vbCritical, "Seu Nome"
     
     ' Na guia exibir (dentro do VBA), ao se selecionar a opção "Janela 'Variáveis Locais'",
-    ' é possível analisar o códio em tempo real dentro de uma interface no VBA.
+    ' é possível analisar o código em tempo real dentro de uma interface no VBA.
     
 End Sub
