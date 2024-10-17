@@ -1,0 +1,9 @@
+Sub Adicionar_Próximo()
+
+    Range("C2").Select
+    Selection.Copy ' Control V.
+    Range("A12").Select
+    ActiveSheet.Paste
+    Range("C3").Select
+    
+End Sub

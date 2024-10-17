@@ -1,0 +1,6 @@
+Sub Mensagem()
+
+    MsgBox ("Olá, Mundo!")
+    MsgBox "Olá, Mundo!", vbCritical, "Título"
+
+End Sub

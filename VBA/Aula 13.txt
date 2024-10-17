@@ -1,0 +1,24 @@
+Option Explicit
+' O comando acima ("Option Explicit") obriga o desenvolvedor a definir o tipo de todas as variáveis.
+' O nome dado a essa prática é "tipagem de variáveis".
+
+Sub Variáveis()
+
+    Dim Nome As String
+    ' Definindo a variável "Nome" como do tipo "String".
+    
+    Dim Idade As Integer
+    ' Definindo a variável "Idade" como do tipo "Integer" (número inteiro).
+    
+    Dim Dinheiro As Double
+    ' Definindo a variável "Dinheiro" como do tipo "Double" (número flutuante ou número com casa decimal).
+    
+    Dim Casada As Boolean
+    ' Definindo a variável "Verdade_Falso" como do tipo "Boolean" (ou o valor é verdadeiro ou é falso).
+    
+    Nome = "Sofia Ramos"
+    Idade = 27
+    Dinheiro = 50.55
+    Casada = False
+
+End Sub

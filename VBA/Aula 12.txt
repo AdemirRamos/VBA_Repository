@@ -1,0 +1,10 @@
+Sub Nome_Sorvete()
+
+    Nome = "Sofia Ramos"
+    Sabor_Sorvete = "Morango"
+
+    MsgBox Nome + " / " & Sabor_Sorvete, vbCritical, "Seu Nome e Seu Sabor de Sorvete"
+
+    ' Para se concatenar, se pode usar tanto "&" quanto "+".
+
+End Sub

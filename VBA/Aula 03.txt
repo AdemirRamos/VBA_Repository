@@ -1,0 +1,8 @@
+Sub Adicionar_Próximo()
+
+    Range("A1").Select ' Seleciona uma determinada célula.
+    Selection.Cut ' Control + X.
+    Range("B1").Select
+    ActiveSheet.Paste ' Control + V
+    
+End Sub
